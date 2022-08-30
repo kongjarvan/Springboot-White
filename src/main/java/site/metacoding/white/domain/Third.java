@@ -20,20 +20,25 @@ public class Third {
 	public Integer getId() {
 		return id;
 	}
+	
 	public void setId(Integer id) {
 		System.out.println("setId 실행됨");
 		this.id = id;
 	}
+	
 	public String getTitle() {
 		return title;
 	}
+	
 	public void setTitle(String title) {
 		System.out.println("setTitle 실행됨");
 		this.title = title;
 	}
+	
 	public String getContent() {
 		return content;
 	}
+	
 	public void setContent(String content) {
 		System.out.println("setContent 실행됨");
 		this.content = content;
